@@ -60,7 +60,7 @@ const App = () => {
           </div>
         </div>
         <p>
-          <a href="https://www.npmjs.com/package/@reactiff/random-walk">npm</a> | <a href="https://github.com/reactiff/random-walk">git</a>
+          <a href="https://www.npmjs.com/package/@reactiff/random-walk">npm</a> | <a href="https://github.com/reactiff/random-walk">git</a> | MIT © <a href="https://github.com/reactiff">Rick Ellis</a>
           
         </p>
       </div>

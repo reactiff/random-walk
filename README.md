@@ -38,10 +38,22 @@ generatePrice();
 
 ---
 
-## To publish changes
+## Publishing the package to npm
+
+```bash
+# if scoped and free account
+npm publish --access public
+
+# otherwise
+npm publish
+
+```
+
+to update
 ```bash
 npm version major|minor|patch
 ```
+
 and then simply
 ```bash
 npm publish
@@ -51,4 +63,4 @@ npm publish
 
 
 ## License
-MIT © [reactiff](https://github.com/reactiff)
+MIT © [Rick Ellis](https://github.com/reactiff)
