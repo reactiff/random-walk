@@ -1,5 +1,6 @@
 {
   "name": "@reactiff/random-walk",
+  "homepage": "https://reactiff.github.io/random-walk",
   "version": "1.0.0",
   "description": "Generates random number sequences that are more characteristic of Price Movements i.e. trending.",
   "author": "Rick Ellis",
