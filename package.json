@@ -1,7 +1,7 @@
 {
   "name": "@reactiff/random-walk",
   "version": "1.0.0",
-  "description": "Generate random number sequences that are more characteristic of Price Movements i.e. trending.",
+  "description": "Generates random number sequences that are more characteristic of Price Movements i.e. trending.",
   "author": "Rick Ellis",
   "license": "MIT",
   "repository": "reactiff/random-walk",
@@ -57,5 +57,6 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {}
 }

@@ -143,10 +143,8 @@
     transform: translateY(-50%);
   }
   
-  .center-xy {
-    position: relative;
-  }
-  .center-xy > * {
+  .center-all {}
+  .center-all > * {
     position: absolute;
     margin: 0 auto;
     left: 50%;

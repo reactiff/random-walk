@@ -1,44 +1,9 @@
 # @reactiff/random-walk
 
-Generate random number sequences that are more characteristic of Price Movements i.e. trending.
+Generates random number sequences that are more characteristic of Price Movements i.e. trending.
 
 [![NPM](https://img.shields.io/npm/v/@reactiff/random-walk.svg)](https://www.npmjs.com/package/@reactiff/random-walk) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-
-<br>
-
-
-# 2. Git init
-
-Did you create the repo on github? https://github.com/reactiff?tab=repositories
-
-```bash
-# in root 
-
-git init
-git commit -m "Initial commit"
-git branch -M master
-git remote add origin https://github.com/reactiff/random-walk.git
-git push -u origin master
-```
-
-<br>
-
-# 3. Install, link and start
-```bash
-# in root
-
-yarn link
-yarn install
-yarn start
-
-cd example
-yarn link "@reactiff/random-walk"
-yarn install
-yarn start
-```
-
-> DELETE THE ABOVE INSTRUCTIONS AFTER YOU'RE DONE
 
 
 ## Install
@@ -60,7 +25,7 @@ const rndWalk = new RandomWalk(
     10      // maxStep:     number - max step size 
 );
 
-const generatePrice() {
+const generatePrice = () => {
     
     console.log( rndWalk.next() );
     
@@ -71,7 +36,19 @@ const generatePrice() {
 generatePrice();
 ```
 
+---
+
+## To publish changes
+```bash
+npm version major|minor|patch
+```
+and then simply
+```bash
+npm publish
+```
+
+---
+
 
 ## License
-
 MIT © [reactiff](https://github.com/reactiff)
